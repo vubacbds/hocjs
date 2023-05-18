@@ -294,3 +294,11 @@ const is_perfect = (number) => {
   else alert("sai");
 };
 is_perfect(6);
+//Xóa node_modules khi lỡ úp lên github
+// 1. tạo tệp .gitignore.
+// 2. thêm dòng /node_modules vào tệp .gitignore
+// 3. chạy các lệnh này
+// git rm -r --cached .
+// git add .
+// git commit -m "remove gitignore files"
+// git push

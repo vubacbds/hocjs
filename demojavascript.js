@@ -310,3 +310,28 @@ function handleCopyTextFromParagraph() {
 
 //Phát hiện phần tử khi cuộn trang: https://stackoverflow.com/questions/487073/how-to-check-if-element-is-visible-after-scrolling
 //Amination CSS: https://toidicode.com/tao-chuyen-dong-animation-trong-css3-200.html
+//Sửa lỗi thu thập thông tin thẻ meta og: đẻ lấy hình ảnh, mô tả khi share link lên fb: https://developers.facebook.com/tools/debug
+//Xóa URL ko còn tồn tại trên web khỏi google search console: https://www.google.com/webmasters/tools/removals
+//Video tạo dự án Nodejs cơ bản dễ hiểu: https://www.youtube.com/watch?v=gjGVE0jdj3o
+//Học về Genneric TypeScript: https://yeulaptrinh.vn/bai-15-typescript-generic/
+//Sự khác nhau giữa Type và Interface trong TypeScript: https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript
+//Scroll slider: https://codepen.io/rmody3/pen/EXObmR
+//transform 3d: https://3dtransforms.desandro.com/carousel | https://dev.to/shantanu_jana/3d-image-slider-using-html-css-328b
+//Thẻ marquee di chuyển chữ tự động: https://viettuts.vn/html/the-marquee-trong-html
+//Cài  Slick Carousel (cái này kéo thả ảnh được đỡ phải code js) cho typescript : npm install --save @types/react-slick
+//Trang Slick: https://react-slick.neostack.com/
+//zoom ảnh với  react-zoom-pan-pinch: https://github.com/prc5/react-zoom-pan-pinch?ref=morioh.com&utm_source=morioh.com
+//tắt lỗi typescripe: https://bobbyhadz.com/blog/typescript-is-declared-but-its-value-is-never-read
+//Mã icon dùng trong Conten ::before: https://fontawesome.com/v5/cheatsheet?from=io
+//Link Fontawesome để dùng trong content:
+{
+  /* <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    /> */
+}
+
+//Truy cập mongdb từ mọi ip khác:  MongoDB Atlas-> NetworkAccess-> Edit->Allow Any
+//Nhấn kéo thả quả bóng: https://javascript.info/mouse-drag-and-drop
