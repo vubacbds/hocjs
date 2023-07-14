@@ -380,5 +380,8 @@ function handleCopyTextFromParagraph() {
 // xong vào tạo máy ảo rồi chạy lên là xong
 // lúc đó vào react native gõ: npm run android >> chọn a là nó hiển thị à
 
+//để thêm path hay biến môi trường thì Chuột phải vào this pc >> chọn Properties >> advan setting >> enviromet
+
 //cài react native thì không cần cài cli nào hết chỉ cần gõ: npx react-native init TenDuAn
 //nó cài cả typescript, eslint, prettier cho luôn
+// cách kiểm tra các thiết bị android là vào command trên chỗ tìm kiếm  rồi bật lên gõ: adb devices
