@@ -335,3 +335,50 @@ function handleCopyTextFromParagraph() {
 
 //Truy cập mongdb từ mọi ip khác:  MongoDB Atlas-> NetworkAccess-> Edit->Allow Any
 //Nhấn kéo thả quả bóng: https://javascript.info/mouse-drag-and-drop
+//element.clientX: lấy so với màn hình cố định, element.pageX so với toàn bộ màn hình
+//Kiến thức về React Router:
+// có Browser Router dùng 99%, Hash Router,...
+// Nested Route là router con, có thể gọi nội dung router con qua outlet
+//  Ngoài outlet có thể gọi route con kiểu <Routes></Routes> trong chính router con đó
+//  điệu kiện kiểu abc/* để nó có thể nhận cái gì đó ở sau
+// outlet có thể truyền vào prop là context, gọi lại dùng useOutletContext gọi trong componentcuar của route con
+// Navlink khác link là có prop 'active' - gọi dạng {{active}} trong style và class
+// Trong link/navlink có replace để thay thế bỏ cái history của trang, end để khi router con active thì router mẹ bỏ active
+// Trong routes chính thì /* để lấy những trang ko tồn tại để notfound
+// Navigate của hook useNavigate để chuyển trang, navigate(-1) để quay lại trang liền kề trước đó
+//  Navigate(-1, {replace}) tương tự replace trên,
+//  Navigate('/home', {state: "cái gì đó"}) để truyền state vào trang '/home' gọi lại qua useLocation
+// Có thể fix cứng 1 routes bằng cách thêm thuộc tính location='/gido' trong thằng rouses
+// Lấy các giá trị query kiểu ?ten=bac&namsinh=2000 trên link qua thư viện: query-string hoặc có cách khác nhưng hơi rắc rối tí
+// async/awaite khác promise: https://topdev.vn/blog/6-ly-do-asyncawait-cua-javascript-danh-bai-promises/
+// Trang lấy API có sẵn: https://reqres.in/
+//Để kéo slick tùy ý thêm: swipeToSlide: true,
+
+// Hiệu ứng gõ chữ
+// let element = document.getElementById('typing-effect')
+// let text = `Ngoài ra còn nhiều mẫu khác và theo yêu cầu thiết kế từ gia chủ`
+// const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+// const handleText = async () => {
+//   for (let i = 0; i < text.length; i++) {
+//     element.textContent += text[i]
+//     await sleep(88)
+//   }
+// }
+
+// handleText()
+// setInterval(() => {
+//   element.textContent = ''
+//   handleText()
+// }, 8888)
+// Đóng hiệu ứng gõ chữ
+
+//Cài android studio 1 là để kết nối máy tính với điện thoại trong việc lập trình mobile android
+// thứ 2 để dùng máy ảo trên android studio luôn
+// để kết nối dc với điện thoại thì cần vào mã điện thoại nhấn 7 lần để có chế độ cho nhà phát triển, rồi bật sửa lỗi USB và chỉ phải thêm đường dẫn path thồi
+// còn với máy ảo android studio cần thêm biến môi trường mới, cài HAXM bằng cách xóa HAXM trên máy nếu lỗi tím đến tên này để xóa : "Intel Hardware Accelerated Execution Manager" hoặc "Intel HAXM"
+// xóa rồi cài lại trên android studio là cái x86, rồi cài android API 33
+// xong vào tạo máy ảo rồi chạy lên là xong
+// lúc đó vào react native gõ: npm run android >> chọn a là nó hiển thị à
+
+//cài react native thì không cần cài cli nào hết chỉ cần gõ: npx react-native init TenDuAn
+//nó cài cả typescript, eslint, prettier cho luôn

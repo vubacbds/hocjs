@@ -280,6 +280,8 @@ console.log(null ?? "Yes"); // Null/undefined trả vế phải
 //Buộc xóa branch: git branch -D <branch-name> //nếu là -d thì chưa merge chưa xóa đc
 //Xóa node_module up lên git : git rm -r --cached node_modules
 //Xem chi tiêt 1 số câu lệnh: https://www.tma.vn/Hoi-dap/Cam-nang-nghe-nghiep/Cach-xu-ly-cac-loi-thuong-gap-trong-git/33031
+//git status để biết đang ở branch nào, trạng thái branch local vơi server, trạng thái file dự án có dc theo dõi hay ko
+//git reset tenfile thì ngược lại với git add (đưa các file từ khu vực staging sang khu vực làm việc)
 
 //Giải quyết vấn đề chưa có dữ liệu đã render và báo lỗi: https://daveceddia.com/react-before-render/
 
