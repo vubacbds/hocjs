@@ -385,3 +385,10 @@ function handleCopyTextFromParagraph() {
 //cài react native thì không cần cài cli nào hết chỉ cần gõ: npx react-native init TenDuAn
 //nó cài cả typescript, eslint, prettier cho luôn
 // cách kiểm tra các thiết bị android là vào command trên chỗ tìm kiếm  rồi bật lên gõ: adb devices
+
+//Nếu lâu lâu bị lỗi react native khi buil thi: cd android
+//  ./gradlew clean với npm cache clean --force
+
+//truy cập link analytics: https://analytics.google.com/analytics/web/#/p394489867/reports/intelligenthome
+
+//Các extention cài cho vscode: Auto Close tag, Auto rename Tag, Beautify, Convert html to jsx, es7 react/redux/, Live Server, Material Icon Theme, Prettier, Rest Client, Terminal
